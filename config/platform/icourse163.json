@@ -1,0 +1,28 @@
+{
+  "name": "icourse163",
+  "domain": "www.icourse163.org",
+  "platform": "爱课程(中国大学MOOC)",
+  "fetchers": {
+    "forum": {
+      "module": "crawler.fetcher.icourse163.ForumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "video": {
+      "module": "crawler.fetcher.icourse163.VideoFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "forum_num": {
+      "module": "crawler.fetcher.icourse163.ForumNumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

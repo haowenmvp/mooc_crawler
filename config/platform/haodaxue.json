@@ -1,0 +1,14 @@
+{
+  "name": "haodaxue",
+  "platform": "好大学在线",
+  "domain": "www.cnmooc.org",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.haodaxue.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

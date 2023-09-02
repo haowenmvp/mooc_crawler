@@ -1,0 +1,14 @@
+{
+  "name": "gaoxiaobang",
+  "platform": "北京高校邦科技有限公司",
+  "domain": "cqupt.gaoxiaobang.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.gaoxiaobang.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

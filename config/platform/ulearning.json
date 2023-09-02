@@ -1,0 +1,14 @@
+{
+  "name": "ulearning",
+  "platform": "优学院（人民网公开课）",
+  "domain": "www.ulearning.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.ulearning.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "erya",
+  "platform": "北京超星尔雅教育科技有限公司",
+  "domain": "erya.mooc.chaoxing.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.erya.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "forum_num": {
+      "module": "crawler.fetcher.erya.ForumNumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

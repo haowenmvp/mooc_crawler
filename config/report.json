@@ -1,0 +1,21 @@
+{
+  "report_weekly_path": "/home/crawl/mooc_crawler/report_excel/weekly",
+  "report_daily_path": "/home/crawl/mooc_crawler/report_excel/daily",
+  "email_config": {
+    "sender_email": "943652865@qq.com",
+    "receiver_emails": {
+      "wzx": "943652865@qq.com",
+      "fuChen": "903630428@qq.com",
+      "hanKai": "1197617594@qq.com"
+    },
+    "password": "oefufxvbkbkxbege",
+    "From": "王子行"
+  },
+  "db_config": {
+    "host": "222.20.95.42",
+    "port": 3307,
+    "username": "root",
+    "password": "123qweASD!@#",
+    "database": "mooc_test"
+  }
+}

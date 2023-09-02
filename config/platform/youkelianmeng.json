@@ -1,0 +1,14 @@
+{
+  "name": "youkelianmeng",
+  "platform": "优课联盟",
+  "domain": "www.uooc.net.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.youkelianmeng.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

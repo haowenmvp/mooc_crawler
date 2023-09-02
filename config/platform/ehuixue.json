@@ -1,0 +1,14 @@
+{
+  "name": "ehuixue",
+  "platform": "安徽省网络课程学习中心平台",
+  "domain": "www.ehuixue.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.ehuixue.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

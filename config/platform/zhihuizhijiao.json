@@ -1,0 +1,21 @@
+{
+  "name": "zhihuizhijiao",
+  "platform": "智慧职教",
+  "domain": "mooc.icve.com.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.zhihuizhijiao.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "forum_num": {
+      "module": "crawler.fetcher.zhihuizhijiao.ForumNumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

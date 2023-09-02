@@ -1,0 +1,68 @@
+{
+  "bind_addr": "0.0.0.0",
+  "bind_port": 8008,
+  "rpc_path": "/rpc/manager",
+  "db_config": {
+    "host": "192.168.232.111",
+    "port": 3307,
+    "username": "root",
+    "password": "123qweASD!@#",
+    "database": "mooc_test"
+  },
+  "mq_config": {
+    "addr": "192.168.232.111",
+    "port": 5672,
+    "user": "admin",
+    "passwd": "admin",
+    "queue_name": "task_queue"
+  },
+  "platform_config_files": [
+    "config/platform/chinesemooc.json",
+    "config/platform/cqooc.json",
+    "config/platform/ehuixue.json",
+    "config/platform/erya.json",
+    "config/platform/gaoxiaobang.json",
+    "config/platform/gaoxiaowaiyumuke.json",
+    "config/platform/haodaxue.json",
+    "config/platform/huixuexi.json",
+    "config/platform/icourse163.json",
+    "config/platform/icourses.json",
+    "config/platform/livedu.json",
+    "config/platform/pmphmooc.json",
+    "config/platform/ulearning.json",
+    "config/platform/umooc.json",
+    "config/platform/wanke.json",
+    "config/platform/weizhiku.json",
+    "config/platform/xuetangx.json",
+    "config/platform/xueyinonline.json",
+    "config/platform/youkelianmeng.json",
+    "config/platform/zhejiangmooc.json",
+    "config/platform/zhihuishu.json",
+    "config/platform/zhihuizhijiao.json",
+    "config/platform/zhongkeyun.json"
+  ],
+  "platform_login_data": [
+    {
+      "domain": "www.icourse163.org",
+      "launcher": "manager.launchers.ICourse163Launcher",
+      "login_url": "https://www.icourse163.org/member/login.htm",
+      "login_infos": [
+        {
+          "username": "1596061278@qq.com",
+          "password": "_Sun12345678"
+        }
+      ]
+    },
+    {
+      "domain": "www.chinesemooc.org",
+      "launcher": "manager.launchers.ChinesemoocLauncher",
+      "login_url": "http://www.chinesemooc.org/",
+      "login_infos": [
+        {
+          "username": "1596061278@qq.com",
+          "password": "sun123456"
+        }
+      ]
+    }
+  ]
+}

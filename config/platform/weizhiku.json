@@ -1,0 +1,14 @@
+{
+  "name": "weizhiku",
+  "platform": "微知库数字校园学习平台",
+  "domain": "wzk.36ve.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.weizhiku.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

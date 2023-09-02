@@ -1,0 +1,13 @@
+{
+  "name": "icourse163",
+  "domain": "www.icourses.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.icourse163.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "xuetangx",
+  "platform": "学堂在线",
+  "domain": "next.xuetangx.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.xuetangx.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "manager_rpc_url": "http://localhost:8008/rpc/manager",
+  "pipeline_rpc_url": "http://localhost:8009/rpc/pipeline",
+  "message_queue": {
+    "addr": "222.20.95.42",
+    "port": 5672,
+    "user": "admin",
+    "passwd": "admin",
+    "queue_name": "task_queue"
+  }
+}

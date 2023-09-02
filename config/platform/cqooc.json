@@ -1,0 +1,14 @@
+{
+  "name": "cqmooc",
+  "platform": "重庆高校在线开放课程平台（重庆市教育委员会）",
+  "domain": "www.cqooc.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.cqooc.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

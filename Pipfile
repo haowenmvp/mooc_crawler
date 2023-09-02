@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+twisted = "*"
+
+[packages]
+selenium = "*"
+requests = "*"
+impyla = "*"
+twisted = "*"
+pika = "*"
+pure-sasl = "==0.6.2"
+cython = "*"
+thrift-sasl = "==0.2.1"
+mysql-connector-python = "*"
+graypy = {extras = ["amqp"],version = "*"}
+bs4 = "*"
+requests_html = "*"
+retrying = "*"
+
+[requires]
+python_version = "3.8"

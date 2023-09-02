@@ -1,0 +1,21 @@
+{
+  "name": "zhejiangmooc",
+  "platform": "浙江省高等学校在线开放课程共享平台",
+  "domain": "zjedu.moocollege.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.zhejiangmooc.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "forum_num": {
+      "module": "crawler.fetcher.zhejiangmooc.ForumNumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

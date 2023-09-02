@@ -1,0 +1,14 @@
+{
+  "name": "huixuexi",
+  "platform": "国家开放大学出版社有限公司（荟学习网）",
+  "domain": "huixuexi.crtvup.com.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.huixuexi.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

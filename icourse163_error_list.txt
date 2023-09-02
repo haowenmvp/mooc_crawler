@@ -1,0 +1,5 @@
+{'error_url': 'http://www.icourse163.org/course/GFXY-1207004801?tid=1463406462', 'platform': '爱课程(中国大学MOOC)'}
+{'error_url': 'http://www.icourse163.org/course/NJUE-1461515181?tid=1462302455', 'platform': '爱课程(中国大学MOOC)'}
+{'error_url': 'http://www.icourse163.org/course/JASFC-1207539803?tid=1463474498', 'platform': '爱课程(中国大学MOOC)'}
+{'error_url': 'http://www.icourse163.org/course/HEPSVE-1455026176?tid=1455394471', 'platform': '爱课程(中国大学MOOC)'}
+{'error_url': 'http://www.icourse163.org/course/HEPSVE-1455026176?tid=1461178446', 'platform': '爱课程(中国大学MOOC)'}

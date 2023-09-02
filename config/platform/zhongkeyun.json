@@ -1,0 +1,21 @@
+{
+  "name": "zhongkeyun",
+  "platform": "中科云教育",
+  "domain": "www.coursegate.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.zhongkeyun.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "forum_num": {
+      "module": "crawler.fetcher.zhongkeyun.ForumNumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

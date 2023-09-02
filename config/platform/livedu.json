@@ -1,0 +1,14 @@
+{
+  "name": "livedu",
+  "platform": "北京高校优质课程研究会",
+  "domain": "www.livedu.com.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.livedu.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

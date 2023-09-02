@@ -1,0 +1,14 @@
+{
+  "name": "gaoxiaowaiyumuke",
+  "platform": "中国高校外语慕课平台",
+  "domain": "moocs.unipus.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.gaoxiaowaiyumuke.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

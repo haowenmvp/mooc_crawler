@@ -1,0 +1,14 @@
+{
+  "name": "umooc",
+  "platform": "优慕课",
+  "domain": "opencourse.umooc.com.cn",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.umooc.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

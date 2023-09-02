@@ -1,0 +1,14 @@
+{
+  "name": "wanke",
+  "platform": "玩课网",
+  "domain": "www.wanke001.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.wanke.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

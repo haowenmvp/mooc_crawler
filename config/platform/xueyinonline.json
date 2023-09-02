@@ -1,0 +1,35 @@
+{
+  "name": "xueyinonline",
+  "platform": "北京学银在线教育科技有限公司",
+  "domain": "www.xueyinonline.com",
+  "fetchers": {
+    "forum": {
+      "module": "crawler.fetcher.xueyinonline.ForumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "basic": {
+      "module": "crawler.fetcher.xueyinonline.BasicFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "list": {
+      "module": "crawler.fetcher.xueyinonline.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "forum_num": {
+      "module": "crawler.fetcher.xueyinonline.ForumNumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

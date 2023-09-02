@@ -1,0 +1,21 @@
+{
+  "bind_addr": "0.0.0.0",
+  "bind_port": 8009,
+  "rpc_path": "/rpc/pipeline",
+
+  "manager_rpc_url": "http://localhost:8008/rpc/manager",
+  "task_info_repo": {
+    "host": "222.20.95.42",
+    "port": 3307,
+    "username": "root",
+    "password": "123qweASD!@#",
+    "database": "mooc_test"
+  },
+  "data_repo": {
+    "host": "222.20.95.42",
+    "port": 3307,
+    "username": "root",
+    "password": "123qweASD!@#",
+    "database": "mooc_test"
+  }
+}

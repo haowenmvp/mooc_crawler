@@ -1,0 +1,14 @@
+{
+  "name": "pmphmooc",
+  "platform": "人卫社MOOC",
+  "domain": "www.pmphmooc.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.pmphmooc.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

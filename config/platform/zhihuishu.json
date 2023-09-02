@@ -1,0 +1,14 @@
+{
+  "name": "zhihuishu",
+  "platform": "智慧树",
+  "domain": "www.zhihuishu.com",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.zhihuishu.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "chinesemooc",
+  "platform": "华文慕课",
+  "domain": "www.chinesemooc.org",
+  "fetchers": {
+    "list": {
+      "module": "crawler.fetcher.chinesemooc.ListFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    },
+    "forum_num": {
+      "module": "crawler.fetcher.chinesemooc.ForumNumFetcher",
+      "pipeline": {
+        "module": "pipeline.pipelines.DataPipeline",
+        "init_args": {}
+      }
+    }
+  }
+}
